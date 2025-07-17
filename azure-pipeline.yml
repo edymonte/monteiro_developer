@@ -41,3 +41,4 @@ jobs:
       - name: Deploy app with ArgoCD
         run: |
           kubectl apply -f ../../argocd/app.yaml
+          ########################################################################
